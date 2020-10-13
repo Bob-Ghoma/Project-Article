@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>{{ article.title }}</h1>
+    <h2>{{ article.contenu }}</h2>
+    <h2>{{ article.datePublication | date("d/m/Y H:i") }}</h2>
+
+    <a href="{{ path('articles_delete', {"article":article.id}) }}"> Supprimer</a>
+{% endblock %}
+
+{% block title %}
+    Article {{ article.title }}
+
+{% endblock %}

@@ -1,0 +1,8 @@
+{%  extends %}
+{% block title %}
+    <h1> Modifié l'article </h1>
+{% endblock %}
+{% block body %}
+    {{ form(article) }}
+    <a href="{{ path('articles_edit', {"article":article.id}) }}">Modifié</a>
+{% endblock %}
