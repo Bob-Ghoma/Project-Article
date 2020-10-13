@@ -11,41 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39eff9e2-762b-4bc4-a5b5-160d36fcdd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projet-article.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200922081616.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200922132317.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200922142358.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200922144007.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/CategoryType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ResearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/articleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/TagsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serrvice/MessageGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/read.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/search.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serrvice/MessageGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MessageGenerator.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +200,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600761238296</updated>
       <workItem from="1600761239354" duration="18218000" />
-      <workItem from="1602487010452" duration="25214000" />
+      <workItem from="1602487010452" duration="27968000" />
+      <workItem from="1602580658060" duration="410000" />
+      <workItem from="1602591279919" duration="7383000" />
     </task>
     <servers />
   </component>
@@ -255,6 +233,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2537" y="127" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602495766554" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1602581070613">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602581070613" />
     <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1602573815241">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -271,6 +253,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602573815241" />
+    <state x="2460" y="255" key="IDE.errors.dialog" timestamp="1602599164807">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2460" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602599164807" />
     <state x="2635" y="243" key="NewPhpClassDialog" timestamp="1602573832377">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

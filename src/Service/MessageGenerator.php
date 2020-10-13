@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Serrvice;
+namespace App\Service;
 
 
 use App\Repository\ArticleRepository;

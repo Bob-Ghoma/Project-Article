@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Form\ResearchType;
 use App\Repository\ArticleRepository;
-use App\Serrvice\MessageGenerator;
+use App\Service\MessageGenerator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
